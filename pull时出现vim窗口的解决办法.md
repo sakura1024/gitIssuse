@@ -4,7 +4,7 @@
 
 3. 建议大家在编辑或者修改代码之前先pull一下oirign的代码，在push之前也要pull一下代码，可以减少一些不必要的麻烦。当然也可以按下面的操作先保存操作，pull之后再把保存的恢复。
 
-> 步骤如下
+ 步骤如下 
 1. 先将本地修改存储起来   
 	```git stash```   
 	这样本地的所有修改就都被暂时存储起来。   
@@ -20,5 +20,4 @@
 	Auto-merging c/environ.c
 	CONFLICF (content):Merge conflict in c/environ.c   
 	意思就是系统自动合并修改的内容，但是其中有冲突，需要解决其中的冲突
-
 
